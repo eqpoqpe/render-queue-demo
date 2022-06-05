@@ -1,0 +1,24 @@
+{
+  "name": "tlement",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "start": "webpack serve"
+  },
+  "keywords": [],
+  "author": "Ryan Martin",
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "rollup": "^2.71.1"
+  },
+  "devDependencies": {
+    "html-webpack-plugin": "^5.5.0",
+    "serve": "^12.0.0",
+    "webpack": "^5.38.1",
+    "webpack-cli": "^4.7.2",
+    "webpack-dev-server": "^4.8.1"
+  }
+}
