@@ -10,7 +10,24 @@ In Txxxxxxx, rendering (asynchronous) happens all the time. Render queue should 
           |
         INPUT
 ```
-### Event Order
+
+## Disordered
+
+## Ordered
+
+```
+   VD_QUEUE
++-----------+
+|   |   |   |
++-----------+
+  |
+render
+  |
++-----------+
+|   |   |   |
++-----------+
+  READY_QUEUE
+```
 
 ## API
 <details>
