@@ -1,5 +1,5 @@
 # Render Queue
-In Txxxxxxx, rendering (asynchronous) happens all the time.
+In Txxxxxxx, rendering (asynchronous) happens all the time. Render queue should work with VDS (validity descriptor system).
 
 ```
  OUT
@@ -10,6 +10,7 @@ In Txxxxxxx, rendering (asynchronous) happens all the time.
           |
         INPUT
 ```
+### Event Order
 
 ## API
 <details>
