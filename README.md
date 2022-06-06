@@ -10,6 +10,7 @@ In Txxxxxxx, rendering (asynchronous) happens all the time.
 +-----------+
 ```
 
+## API
 <details>
   <summary>single_render</summary>
   
