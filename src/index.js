@@ -1,6 +1,4 @@
-/**
- * Copyright (c) 2022 Ryan Martin
- */
+// string.replace(/\/\*[\s\S]*?\*\/|\/\/.*/g,'').trim()
 
 let count = 0;
 let render_state = false;
@@ -24,26 +22,6 @@ const render = async function () {
     render_state = false;
   }
 }
-
-// setInterval(() => {
-//   renderQueue.push(7);
-// }, 1100);
-
-// setInterval(() => {
-//   renderQueue.push(7);
-// }, 900);
-
-// setInterval(() => {
-//   renderQueue.push(7);
-// }, 700);
-
-// setInterval(() => {
-//   renderQueue.push(5);
-// }, 500);
-
-setInterval(() => {
-  renderQueue.push(3);
-}, 300);
 
 setInterval(() => {
   renderQueue.push(count);
