@@ -39,10 +39,10 @@ render
 </details>
 
  <details>
-  <summary>READY_QUEUE</summary>
+  <summary>READY_ITEM</summary>
   
   ```ts
-  declare interface READY_QUEUE {
+  declare interface READY_ITEM {
    // ...
    _$vd: number | string;
    // ...
