@@ -2,12 +2,13 @@
 In Txxxxxxx, rendering (asynchronous) happens all the time.
 
 ```
-    FIFO
-   _______
-  |       |
+ OUT
+  |
 +-----------+
 |   |   |   |
 +-----------+
+          |
+        INPUT
 ```
 
 ## API
