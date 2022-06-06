@@ -11,11 +11,16 @@ In Txxxxxxx, rendering (asynchronous) happens all the time. Render queue should 
         INPUT
 ```
 
-## render
+## API
+### render()
+<details>
+  <summary>Type</summary>
+  
+  ```ts
+  ```
+</details>
 
-### ordered
-
-### disordered
+- `ordered`
 
 ```
    VD_QUEUE
@@ -31,23 +36,31 @@ render
   READY_QUEUE
 ```
 
-## API
+- `disordered`
+
+```
+```
+
+### single_render()
+
 <details>
-  <summary>single_render</summary>
+  <summary>Type</summary>
   
   ```ts
   declare function single_render(set: any, option: { diff: boolean }): Promise<void>;
   ```
 </details>
 
- <details>
-  <summary>READY_ITEM</summary>
-  
-  ```ts
-  declare interface READY_ITEM {
-   // ...
-   _$vd: number | string;
-   // ...
-  };
-  ```
+### READY_ITEM
+ 
+<details>
+ <summary>Type</summary>
+ 
+ ```ts
+ declare interface READY_ITEM {
+  // ...
+  _$vd: number | string;
+  // ...
+ };
+ ```
 </details>
