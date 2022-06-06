@@ -13,7 +13,7 @@ In Txxxxxxx, rendering (asynchronous) happens all the time. Render queue should 
 
 ## API
 ### render()
-<details>
+- <details>
   <summary>Type</summary>
   
   ```ts
@@ -22,28 +22,28 @@ In Txxxxxxx, rendering (asynchronous) happens all the time. Render queue should 
 
 - `ordered`
 
-```
-   VD_QUEUE
-+-----------+
-|   |   |   |
-+-----------+
-  |
-render
-  |
-+-----------+
-|   |   |   |
-+-----------+
-  READY_QUEUE
-```
+  ```
+     VD_QUEUE
+  +-----------+
+  |   |   |   |
+  +-----------+
+    |
+  render
+    |
+  +-----------+
+  |   |   |   |
+  +-----------+
+    READY_QUEUE
+  ```
 
 - `disordered`
 
-```
-```
+  ```
+  ```
 
 ### single_render()
 
-<details>
+- <details>
   <summary>Type</summary>
   
   ```ts
@@ -52,15 +52,15 @@ render
 </details>
 
 ### READY_ITEM
- 
-<details>
- <summary>Type</summary>
- 
- ```ts
- declare interface READY_ITEM {
-  // ...
-  _$vd: number | string;
-  // ...
- };
- ```
+
+- <details>
+  <summary>Type</summary>
+  
+  ```ts
+  declare interface READY_ITEM {
+   // ...
+   _$vd: number | string;
+   // ...
+  };
+  ```
 </details>
