@@ -37,3 +37,15 @@ render
   declare function single_render(set: any, option: { diff: boolean }): Promise<void>;
   ```
 </details>
+
+ <details>
+  <summary>READY_QUEUE</summary>
+  
+  ```ts
+  declare interface READY_QUEUE {
+   // ...
+   _$vd: number | string;
+   // ...
+  };
+  ```
+</details>
