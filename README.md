@@ -1,4 +1,14 @@
 # Render Queue
+In Txxxxxxx, rendering (asynchronous) happens all the time.
+
+```
+    FIFO
+   _______
+  |       |
++-----------+
+|   |   |   |
++-----------+
+```
 
 <details>
   <summary>single_render</summary>
